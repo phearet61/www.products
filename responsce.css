@@ -1,0 +1,333 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+/*======[container.box-navbar]======*/
+	.container.box-navbar{
+        width:100%;
+        padding: 23px 0;
+        background-color: rgb(246, 234, 215);
+    }
+    .container.box-navbar .b-menu a:hover {
+       color: #5fd29a;
+      }
+      .container.box-navbar .b-follow-us a:hover {
+        color: #3a49ce;
+       }
+/*======[box-banner]======*/
+    .box-banner{
+      width:100%;
+    }
+/*======[box-bar]======*/
+        .box-bar{
+            /* width:65%; */
+            display: none; 
+        }
+    } 
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*======[container.box-navbar]======*/
+    .container.box-navbar{
+    position: relative;
+     width: 100%;
+     padding:23px 0;
+     background-color: #bad1e1;
+    }
+    .container.box-navbar .b-menu a:hover {
+        color: #d70d5e;
+       }
+       .container.box-navbar .b-follow-us a:hover {
+         color: #ce643a;
+        }
+ 
+/*======[box-bar]======*/
+    .box-bar{
+        display: none;
+    }
+/*======[box-banner]======*/
+    .box-banner{
+        width: 100%;
+    }
+    .box-banner .banner{
+        height: 400px;
+        padding: 0 80px;
+    }
+    .box-banner .banner h1{
+        width: 400px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*======[container.box-navbar]======*/
+     .container.box-navbar{
+        position: relative;
+        width: 100%;
+        padding:23px 0;
+        background-color: #eae0e9;
+       }
+       .container.box-navbar .b-img img{
+           width: 200px;
+       }
+       .container.box-navbar .b-img{
+           height: 100%;
+       } 
+       .container.box-navbar .b-menu ul{
+         display: none;
+       }
+       .container.box-navbar .b-follow-us ul{
+        display: none;
+      }
+/*======[box-bar]======*/
+    .box-bar{
+        display: block;
+    }
+    .box-bar:hover{
+        color: rgb(215, 178, 13);
+       }
+    .box-bar{
+        width:20px;
+        position: absolute;
+        top: 9px;
+        font-size: 15px;
+        right: 3px;
+      
+    }
+/*======[box-banner]======*/
+    .box-banner{
+        width: 100%;
+    }
+    .box-banner .banner{
+        height: 400px;
+    }
+    .box-banner .banner{
+        height: 400px;
+        padding: 0 80px;
+    }
+    .box-banner .banner h1{
+        width:400px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+/*======[box-contents]======*/
+    .box-contents .b-img{
+        align-items: center;
+        padding-left: 5px;
+        height:250px;
+    }
+     .box-contents .back-img{
+        align-items: center;
+        padding-left: 5px;
+        height:250px;
+    }
+    .box-contents .back-img button{
+        font-size: 13px;
+        width:150px;
+        padding: 8px 0;
+    } 
+    .box-footer .b-button button{
+        border:none;
+        border:2px solid #2E4053;
+        width: 150px;
+        padding:10px 0;
+        margin-top: 14px;
+        background-color: unset;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+/*======[container.box-navbar]======*/
+	.container.box-navbar{
+        position: relative;
+        width: 100%;
+        padding:23px 0;
+        background-color: #a8bcca;
+       }
+       .container.box-navbar .b-img img{
+           width: 200px;
+       }
+       .container.box-navbar .b-img{
+           height: 100%;
+       } 
+       .container.box-navbar .b-menu ul{
+         display: none;
+       }
+       .container.box-navbar .b-follow-us ul{
+        display: none;
+      }
+/*======[box-bar]======*/
+    .box-bar{
+        display: block;
+    }
+    .box-bar:hover{
+        color: #0dd717;
+       }
+    .box-bar{
+        width:20px;
+        position: absolute;
+        top: 9px;
+        font-size: 15px;
+        right:10px;
+     
+    }
+/*======[box-banner]======*/
+    .box-banner{
+        width: 100%;
+
+    }
+    .box-banner .banner{
+        height: 300px;
+    }
+    .box-banner .banner{
+        height: 400px;
+        padding: 0 30px;
+    }
+    .box-banner .banner h1{
+        width:200px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+/*======[box-contens]======*/
+    .box-contents .back-img{
+        align-items: center;
+        padding-left: 5px;
+        height:260px;
+    }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*======[box-navbar]======*/
+	.container.box-navbar{
+        position: relative;
+        width:100%;
+        padding: 23px 0;
+        background-color: #d2dce3;
+       }
+       .container.box-navbar .b-img img{
+           width: 180px;
+       }
+       .container.box-navbar .b-menu {
+         display: none;
+       }
+     
+       .container.box-navbar .b-follow-us{
+        display: none;
+      }
+/*======[box-bar]======*/
+    .box-bar{
+     display: block;
+    }
+    .box-bar:hover{
+        color: #d70d5e;
+       }
+    .box-bar{
+        width:20px;
+        position: absolute;
+        top: 10px;
+        font-size: 20px;
+        right: 10px;
+    }
+/*======[box-banner]======*/
+    .box-banner{
+        width: 100%;
+    }
+    .box-banner .banner{
+        height: 200px;
+    }
+    .box-banner .banner{
+        height: 400px;
+        padding: 0 30px;
+    }
+    .box-banner .banner h1{
+        width:200px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+/*======[box-contens]======*/
+    .box-contents{
+      width:95%;
+
+    }
+    .box-contents .back-img{
+    align-items: center;
+    padding-left: 5px;
+    height:260px;
+}
+  .box-contents .back-img button{
+    font-size: 13px;
+    width:150px;
+    padding: 8px 0;
+}
+/*===========[our_Letest_Products]=======*/
+  
+    .Our_Letest_Products h1{
+       font-size: 23px;
+    }
+/*===========[box-card]=======*/
+    .box-card .b-card .b-body{
+        margin-top: 19px;
+        line-height: 10px;  
+    }
+    .box-card .b-card .b-body p:nth-child(1){
+        color: rgb(9, 154, 244);
+    }
+    .box-card .b-card .b-body h4{
+        color:#2E4053;
+        font-size: 20px; 
+    }
+    .box-card .b-card .b-body h6{
+        color: #02060b;
+    }
+/*===========[add-to-card]=======*/
+  .add-to-card li a{
+   color: #d25f5f;
+  }
+/*========[box-footer]=========*/
+    .box-footer .b-contact h3{
+        color:rgb(42, 165, 147);
+    }
+    .box-footer .b-contact ul{
+        list-style: none;
+        display:flex;
+        padding-left:0;
+    }
+    .box-footer .b-contact ul li a{
+        color:#fff;
+        padding:11px 11px;
+        font-size:40px;
+    }
+    .box-footer .b-contact ul li a:hover{
+        color:rgb(83, 83, 228);
+    }
+    .box-footer .b-menu{
+        width: 100%;
+    }
+    .box-footer .b-menu h2{
+        color:#2E4053 ;
+        font-size: 20px;
+    }
+    .box-footer .b-menu ul{
+        list-style: none;
+        padding-left: 10px;
+    }
+    .box-footer .b-menu ul li{
+        color: #717D7E;
+        padding:5px 0;  
+    }
+    .box-footer .b-menu ul li a{
+        color: #717D7E;
+        padding:5px 0;
+        text-decoration: none;
+        font-size: 15px; 
+    }
+    .box-footer .b-menu ul li a:hover{
+        color:rgb(235, 76, 76);
+    }
+        .box-footer .b-button button{
+            border:none;
+            border:2px solid #2E4053;
+            width: 150px;
+            padding:10px 0;
+            margin-top: 14px;
+            background-color: unset;
+        }
+    }
